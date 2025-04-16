@@ -1,12 +1,32 @@
 .courses_block {
-    display: flex;
-    max-width: 1200px;
-    margin: 200px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin-left: 50px;
+  // margin: 50px 150px;
+  // overflow: hidden;
+}
+.cards {
+  width: 1200px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media (max-width: 1000px) {
+  .cards {
+    width: 900px;
   }
+}
+@media (max-width: 800px) {
+  .cards {
+    width: 700px;
+  }
+}
 
-  .courses_card{
-    background-color: aquamarine;
-    height: 200px;
-    width: 200px;
-    color: black;
+@media (max-width: 570px) {
+  .cards {
+    width: 400px;
+    margin: 0 50px;
   }
+}
