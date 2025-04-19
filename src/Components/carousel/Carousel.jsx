@@ -23,11 +23,11 @@ export const Carousel = () => {
         breakpoints={{
           600: {
             slidesPerView: 2,
-            slidesPerGroup: 2,
+            slidesPerGroup: 1,
           },
           900: {
             slidesPerView: 3,
-            slidesPerGroup: 3,
+            slidesPerGroup: 1,
           },
         }}
         spaceBetween={30}
