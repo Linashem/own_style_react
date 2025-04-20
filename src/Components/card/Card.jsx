@@ -7,7 +7,7 @@ export const Card = ({ text, imgSrc, price }) => {
       <div className={style.card} style={{ backgroundImage: `url(${imgSrc})` }}>
         <button className={style.card_button}>Подробнее</button>
         <div className={style.text}>
-          <h4>
+          <h4 className={style.card_title}>
             <a className={style.link}>{text}</a>
           </h4>
           <p>{price}</p>

@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 // import './styles.css';
 
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import { Card } from "../card/Card";
 import { coursesData } from "../../helper/constants";
 
@@ -19,7 +19,7 @@ export const Carousel = () => {
   return (
     <>
       <Swiper
-        slidesPerView={1}
+        slidesPerView={1.3}
         breakpoints={{
           600: {
             slidesPerView: 2,
@@ -31,11 +31,8 @@ export const Carousel = () => {
           },
         }}
         spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[ Navigation]}
         className='mySwiper'
       >
         {coursesData.map((el) => (
