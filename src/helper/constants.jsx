@@ -14,7 +14,7 @@ export const coursesData = [
   {
     id: 3,
     imgSrc: "./pic_card3.jpg",
-    text: "Курс «Конструирование одежды»",
+    text: "Курс «Боди, леггинсы»",
     price: "8000 р",
   },
   {
@@ -26,7 +26,7 @@ export const coursesData = [
   {
     id: 5,
     imgSrc: "./pic_card5.jpg",
-    text: "Курс «Футболки для всей семьи»",
+    text: "Курс «Женская стеганая куртка и сумка»",
     price: "8000 р",
   },
   {
