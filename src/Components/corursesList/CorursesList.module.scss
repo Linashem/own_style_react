@@ -1,0 +1,27 @@
+.courses_items_block {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+}
+.cards {
+    margin: 0 10px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 35px;
+}
+.card_box {
+  min-width: 300px;
+}
+
+
+@media (max-width: 1000px) {
+    .card_box {
+        width: 270px;
+      }
+  }

@@ -40,17 +40,6 @@
   width: 100%;
   height: 100%;
   animation: baner 4s forwards;
-  // background-image: url("./thingsback.png");
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // animation: things 20s forwards;
-  // background-image: -webkit-linear-gradient(
-  //   top,
-  //   rgba(0, 0, 0, 0.5),
-  //   rgba(0, 0, 0, 0.75),
-  //   rgba(0, 0, 0, 0.4)
-  // );
-
   background: black;
   z-index: 2;
 }
@@ -61,7 +50,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("./thingsback.png");
+  // background-image: url("./thingsback.png");
   background-repeat: no-repeat;
   background-size: cover;
   animation: things 8s forwards;
@@ -134,6 +123,9 @@
   }
   .baner_desc {
     font-size: 25px;
+  }
+  .baner2::after {
+    background-image: url("./thingsback.png");
   }
 }
 

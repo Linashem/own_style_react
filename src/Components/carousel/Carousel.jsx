@@ -19,25 +19,29 @@ export const Carousel = () => {
   return (
     <>
       <Swiper
-        slidesPerView={1.3}
+        slidesPerView={1.2}
         breakpoints={{
           600: {
             slidesPerView: 2,
             slidesPerGroup: 1,
+            spaceBetween:20
           },
           900: {
             slidesPerView: 3,
             slidesPerGroup: 1,
+            spaceBetween:30
+
           },
         }}
-        spaceBetween={30}
+        spaceBetween={15}
         navigation={true}
         modules={[ Navigation]}
         className='mySwiper'
       >
         {coursesData.map((el) => (
           <SwiperSlide key={el.id}>
-            <Card text={el.text} imgSrc={el.imgSrc} price={el.price} />
+            <Card text={el.text} imgSrc={el.imgSrc} price={el.price} lastCardStyle={el.lastCardStyle} />
+
           </SwiperSlide>
         ))}
       </Swiper>
