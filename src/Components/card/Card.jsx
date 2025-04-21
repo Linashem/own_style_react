@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import style from "./Card.module.scss";
 
 export const Card = ({ text, imgSrc, price, lastCardStyle }) => {
-  // const [lastStyle, setLastStyle]= useState
   const cardStyle =
     lastCardStyle > 0
       ? {

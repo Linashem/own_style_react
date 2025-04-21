@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./CorursesList.module.scss";
-import { Card } from "../card/Card";
 import {  coursesPageData } from "../../helper/constants";
+import { CardCoursesPage } from "../cardCoursesPage/CardCoursesPage";
 
 export const CorursesList = () => {
   return (
@@ -10,7 +10,7 @@ export const CorursesList = () => {
       <div className={style.cards}>
         {coursesPageData.map((el) => (
           <div className={style.card_box}>
-            <Card text={el.text} imgSrc={el.imgSrc} price={el.price} />
+            <CardCoursesPage text={el.text} imgSrc={el.imgSrc} price={el.price} />
           </div>
         ))}
       </div>
