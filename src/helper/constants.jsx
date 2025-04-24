@@ -32,8 +32,7 @@ export const coursesData = [
   {
     id: 6,
     text: "ПОСМОТРЕТЬ ВСЕ КУРСЫ",
-    lastCardStyle:10,
-    
+    lastCardStyle: 10,
   },
 ];
 
@@ -98,4 +97,236 @@ export const coursesPageData = [
     text: "Курс «Футболки для всей семьи»",
     price: "8000 р",
   },
+];
+
+export const gallery = [
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work1.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work2.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work3.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work4.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work5.jpg",
+  },
+
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work6.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work7.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work8.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work9.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work1.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work2.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work3.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work4.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work5.jpg",
+  },
+
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work6.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work7.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work8.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work9.jpg",
+  },  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work1.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work2.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work3.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work4.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work5.jpg",
+  },
+
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work6.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work7.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work8.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work9.jpg",
+  },  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work1.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work2.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work3.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work4.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work5.jpg",
+  },
+
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work6.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work7.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work8.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work9.jpg",
+  },  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work1.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work2.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work3.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work4.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work5.jpg",
+  },
+
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work6.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work7.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work8.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work9.jpg",
+  },
+
+  // data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@therawhunter' >Massimiliano Morosinotto </a></h4><p> Location - <a href='https://unsplash.com/s/photos/tre-cime-di-lavaredo%2C-italia'>Tre Cime di Lavaredo, Italia</a>This is the Way</p>"}
 ];
