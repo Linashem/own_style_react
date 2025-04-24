@@ -1,7 +1,7 @@
 .about_block {
     display: flex;
     max-width: 1200px;
-    margin: 100px 0;
+    margin: 90px 0;
   }
   .about_img {
     height: 600px;
@@ -23,6 +23,7 @@
   @media (max-width: 600px) {
     .about_block {
       flex-direction: column;
+      margin: 20px 0;
     }
     .about_img {
       height: 400px;

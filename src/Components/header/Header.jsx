@@ -36,7 +36,7 @@ export const Header = () => {
               <Link to={routes.courses}>Курсы</Link>
             </li>
             <li className={style.header_item}>
-              <a href=''> Работы учениц</a>
+              <Link to={routes.gallery}> Работы учениц</Link>
             </li>
           </ul>
         </div>
