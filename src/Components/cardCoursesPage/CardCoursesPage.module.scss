@@ -37,12 +37,12 @@
 .text {
   position: absolute;
   bottom: 10px;
-  left: 25px;
+  left: 20px;
   height: 87px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 15px;
+  justify-content: space-between;
   color: white;
   z-index: 4;
 }
@@ -59,10 +59,11 @@
 
 @media (max-width: 1010px) {
   .text {
-    bottom: -100px;
+    bottom: -80px;
     left: 25px;
     color: black;
     font-weight: bold;
+    height: 75px;
     .link {
       color: black;
     }
