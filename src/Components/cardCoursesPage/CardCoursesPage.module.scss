@@ -56,13 +56,28 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 1010px) {
+  .text {
+    bottom: -100px;
+    left: 25px;
+    color: black;
+    font-weight: bold;
+    .link {
+      color: black;
+    }
+  }
+}
+
 @media (max-width: 774px) {
   .card {
     height: 300px;
   }
   .text {
+    bottom: -90px;
+    left: 10px;
+    gap: 8px;
     font-size: 18px;
-    
   }
 }
 @media (max-width: 620px) {
@@ -87,10 +102,9 @@
     height: 230px;
   }
   .text {
+    bottom: -65px;
     height: 58px;
     gap: 2px;
-    bottom: 5px;
-    left: 10px;
     font-size: 14px;
   }
 }
