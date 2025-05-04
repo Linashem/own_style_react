@@ -37,6 +37,16 @@
     row-gap: 120px;
   }
 }
+// @media (max-width: 620px) {
+//   .courses_items_block {
+//     margin-top: 30px;
+//   }
+//   .cards {
+//     grid-template-columns: 230px 230px;
+//     gap: 15px;
+//     row-gap: 120px;
+//   }
+// }
 @media (max-width: 515px) {
   .cards {
     grid-template-columns: 200px 200px;

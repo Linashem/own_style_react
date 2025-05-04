@@ -14,6 +14,11 @@ export const Carousel = () => {
       <Swiper
         slidesPerView={1.2}
         breakpoints={{
+          580: {
+            slidesPerView: 1.5,
+            // slidesPerGroup: 1,
+            // spaceBetween: 20,
+          },
           600: {
             slidesPerView: 2,
             slidesPerGroup: 1,

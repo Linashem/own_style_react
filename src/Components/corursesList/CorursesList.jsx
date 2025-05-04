@@ -4,7 +4,7 @@ import { coursesPageData } from "../../helper/constants";
 import { CardCoursesPage } from "../cardCoursesPage/CardCoursesPage";
 import { useDispatch } from "react-redux";
 import { oneCourseActions } from "../../store/oneCourseReducer";
-import { Link } from "react-router";
+
 
 export const CorursesList = () => {
   const dispatch = useDispatch();
