@@ -10,11 +10,13 @@ export const OneCourse = () => {
 
   const isLocation =
     window.location.pathname[window.location.pathname.length - 1];
-  // const goToGood = (item) => {
-  //   dispatch(oneCourseActions(item));
-  // };
+
   useEffect(() => {
-    dispatch(oneCourseActions(coursesPageData[isLocation-1]));
+    dispatch(
+      oneCourseActions(
+        coursesPageData[(isLocation - 2, isLocation - 1, isLocation)]
+      )
+    );
     console.log(courseData);
   }, []);
 

@@ -1,7 +1,10 @@
 import React from "react";
 import style from "./Card.module.scss";
+import { Link } from "react-router-dom";
 
 export const Card = ({ text, imgSrc, price, lastCardStyle }) => {
+
+
   const cardStyle =
     lastCardStyle > 0
       ? {
@@ -11,15 +14,15 @@ export const Card = ({ text, imgSrc, price, lastCardStyle }) => {
       rgba(0, 0, 0, 1) 100%
     )`,
           display: "flex",
-          justifyContent: 'center',
-          alignItems: 'center'
+          justifyContent: "center",
+          alignItems: "center",
         }
       : { backgroundImage: `url(${imgSrc})` };
 
-     const lastTextStyle=  lastCardStyle > 0?{ position: "static", }:{}
+  const lastTextStyle = lastCardStyle > 0 ? { position: "static" } : {};
 
   return (
-    <a href='' className={style.card_link}>
+    <Link to='/courses/:id' className={style.card_link}>
       <div className={style.card} style={cardStyle}>
         {/* <div className={style.card} {lastCardStyle ? style={{color:'red'}} : style={{ backgroundImage: `url(${imgSrc})` }}} > */}
 
@@ -31,6 +34,6 @@ export const Card = ({ text, imgSrc, price, lastCardStyle }) => {
           <p>{price}</p>
         </div>
       </div>
-    </a>
+    </Link>
   );
 };
