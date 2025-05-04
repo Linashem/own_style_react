@@ -36,8 +36,6 @@ export const Card = ({ text, imgSrc, price, lastCardStyle, id }) => {
       className={style.card_link}
     >
       <div className={style.card} style={cardStyle}>
-        {/* <div className={style.card} {lastCardStyle ? style={{color:'red'}} : style={{ backgroundImage: `url(${imgSrc})` }}} > */}
-
         {/* <button className={style.card_button}>Подробнее</button> */}
         <div className={style.text} style={lastTextStyle}>
           <h4 className={style.card_title}>

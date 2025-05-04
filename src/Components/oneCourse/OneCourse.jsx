@@ -17,7 +17,6 @@ export const OneCourse = () => {
         coursesPageData[(isLocation - 2, isLocation - 1, isLocation)]
       )
     );
-    console.log(courseData);
   }, []);
 
   return (
