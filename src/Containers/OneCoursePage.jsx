@@ -1,10 +1,12 @@
-import React from 'react'
-import { CoursItem } from '../Components/coursItem/CoursItem'
-import { useParams } from 'react-router-dom'
+import React from "react";
+import { OneCourse } from "../Components/oneCourse/OneCourse";
+import { Header } from "../Components/header/Header";
 
 export const OneCoursePage = () => {
-  const {cardId}= useParams()
   return (
-    <div> <CoursItem  /> </div>
-  )
-}
+    <div>
+      <Header />
+      <OneCourse />
+    </div>
+  );
+};

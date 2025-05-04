@@ -11,7 +11,6 @@ export const CorursesList = () => {
 
   const goToGood = (item) => {
     dispatch(oneCourseActions(item));
-    // console.log(courseData +'ЗДЕСЬ ')
   };
 
   return (
