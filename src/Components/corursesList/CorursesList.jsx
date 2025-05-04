@@ -19,9 +19,8 @@ export const CorursesList = () => {
       <div className={style.cards}>
         {coursesPageData.map((el) => (
           <div key={el.id} className={style.card_box}>
-            <Link
+            <div
               className={style.img_link}
-              to='/courses/:id'
               onClick={() => goToGood(el)}
             >
               <CardCoursesPage
@@ -30,7 +29,7 @@ export const CorursesList = () => {
                 price={el.price}
                 id={el.id}
               />
-            </Link>
+            </div>
           </div>
         ))}
       </div>

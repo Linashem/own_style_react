@@ -1,9 +1,16 @@
 import React from "react";
 import style from "./Card.module.scss";
+import { useDispatch } from "react-redux";
+import { oneCourseActions } from "../../store/oneCourseReducer";
 import { Link } from "react-router-dom";
+import { routes } from "../../helper/routes";
 
-export const Card = ({ text, imgSrc, price, lastCardStyle }) => {
+export const Card = ({ text, imgSrc, price, lastCardStyle, id }) => {
+  const dispatch = useDispatch();
 
+  const goToGood = (item) => {
+    dispatch(oneCourseActions(item));
+  };
 
   const cardStyle =
     lastCardStyle > 0
@@ -20,16 +27,21 @@ export const Card = ({ text, imgSrc, price, lastCardStyle }) => {
       : { backgroundImage: `url(${imgSrc})` };
 
   const lastTextStyle = lastCardStyle > 0 ? { position: "static" } : {};
+  const lastLink = lastCardStyle > 0 ? routes.courses : `/courses/${id - 1}`;
 
   return (
-    <Link to='/courses/:id' className={style.card_link}>
+    <Link
+      to={lastLink}
+      onClick={() => goToGood(id)}
+      className={style.card_link}
+    >
       <div className={style.card} style={cardStyle}>
         {/* <div className={style.card} {lastCardStyle ? style={{color:'red'}} : style={{ backgroundImage: `url(${imgSrc})` }}} > */}
 
         {/* <button className={style.card_button}>Подробнее</button> */}
         <div className={style.text} style={lastTextStyle}>
           <h4 className={style.card_title}>
-            <a className={style.link}>{text}</a>
+            <p className={style.link}>{text}</p>
           </h4>
           <p>{price}</p>
         </div>

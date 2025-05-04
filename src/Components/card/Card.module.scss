@@ -1,6 +1,9 @@
 .card_link {
   position: relative;
 }
+.card_link:hover {
+  opacity: 0.85;
+}
 
 .card {
   position: relative;
@@ -24,9 +27,6 @@
     rgba(0, 0, 0, 1) 100%
   );
   z-index: 2;
-}
-.card_link:hover {
-  opacity: 0.85;
 }
 
 .card_button {
@@ -65,7 +65,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 @media (max-width: 720px) {
   .card {
