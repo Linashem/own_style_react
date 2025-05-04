@@ -14,7 +14,7 @@ export const OneCourse = () => {
   //   dispatch(oneCourseActions(item));
   // };
   useEffect(() => {
-    dispatch(oneCourseActions(coursesPageData[isLocation]));
+    dispatch(oneCourseActions(coursesPageData[isLocation-1]));
     console.log(courseData);
   }, []);
 
