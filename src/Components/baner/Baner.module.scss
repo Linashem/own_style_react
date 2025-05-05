@@ -50,12 +50,12 @@
   left: 0;
   width: 100%;
   height: 100%;
-  // background-image: url("./thingsback.png");
+  background-image: url("./thingsback.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   animation: things 8s forwards;
   z-index: 3;
-  background-color: black;
+  // background-color: black;
 }
 
 .baner_arrow {
@@ -112,7 +112,7 @@
   }
 
   100% {
-    opacity: 0.3;
+    opacity: 0.35;
   }
 }
 
@@ -125,7 +125,7 @@
     font-size: 25px;
   }
   .baner2::after {
-    background-image: url("./thingsback.png");
+    // background-image: url("./thingsback.png");
   }
 }
 
