@@ -1,8 +1,24 @@
 .one_course_block {
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
   .img {
-    width: 350px;
-    height: 500px;
+    // width: 350px;
+    // height: 500px;
+    width: 40%;
+    // height: auto;
+    max-height: 600px;
+
+  }
+  .text{
+    width: 50%;
+  }
+}
+
+@media (max-width: 620px) {
+  .one_course_block {
+    margin-top: 30px;
   }
 }

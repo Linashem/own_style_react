@@ -15,7 +15,7 @@ export const Header = () => {
       <nav className={style.header_nav}>
         <div className={style.header_line}>
           <Link to={routes.home} className={style.logo}>
-            <img src='./logo.svg' alt='свой стиль' width={40} height={70} />
+            <img src='/logo.svg' alt='свой стиль' width={40} height={70} />
             <div className={style.logo_text}>
               <p className={style.logo_title}>СВОЙ СТИЛЬ</p>
               <p className={style.logo_desc}>ШКОЛА ШИТЬЯ</p>
