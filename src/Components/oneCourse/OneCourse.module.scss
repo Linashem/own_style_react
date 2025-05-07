@@ -2,18 +2,126 @@
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-  .img {
-    // width: 350px;
-    // height: 500px;
-    width: 40%;
-    // height: auto;
-    max-height: 600px;
-
+  .one_course_top {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
   }
-  .text{
+  .img {
+    width: 40%;
+    max-height: 600px;
+  }
+  .text {
     width: 50%;
+    .title {
+      font-family: var(--font-Garamond);
+      margin-bottom: 30px;
+      font-size: 40px;
+      // font-weight: 800;
+    }
+    .desc {
+      margin-bottom: 50px;
+      font-size: 24px;
+      font-family: var(--font-Garamond);
+    }
+    .bottom {
+      display: flex;
+      align-items: center;
+      gap: 70px;
+      .clock {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+        .clock_text {
+          font-family: var(--font-Garamond);
+        }
+        .clock_img {
+          width: 60px;
+        }
+      }
+      .price {
+        font-weight: 600;
+        font-family: var(--font-Garamond);
+      }
+    }
+  }
+  .ask_title {
+    margin-bottom: 50px;
+    justify-self: center;
+    font-family: var(--font-Garamond);
+  }
+  .one_course_bottom {
+    display: flex;
+    flex-direction: column;
+
+    .div_block1 {
+      background-image: url("./machine.jpg");
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 400px;
+    }
+    .div_block2 {
+      background-image: url("./scissors.jpg");
+      background-size: 400px;
+      background-repeat: no-repeat;
+
+      display: flex;
+      justify-content: end;
+      ul {
+        // padding-left: 150px;
+        width: 450px;
+        padding-right: 0;
+      }
+    }
+    .div_block3 {
+      background-image: url("./threads.jpg");
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 400px;
+    }
+    .div_block4 {
+      background-image: url("./heart.jpg");
+      background-repeat: no-repeat;
+      background-size: 400px;
+
+      display: flex;
+      justify-content: end;
+      ul {
+        width: 450px;
+        // padding-left: 150px;
+        padding-right: 0;
+      }
+    }
+    .ask_div {
+      padding-left: 20px;
+      max-width: 300px;
+      margin-bottom: 20px;
+      background-color: black;
+      color: white;
+      font-weight: 800;
+    }
+
+    .one_course_desc_title {
+      max-width: 600px;
+      font-family: var(--font-Garamond);
+
+      padding: 40px;
+      font-weight: 500;
+      line-height: 1.5;
+      font-size: 24px;
+      font-weight: 600;
+      li {
+        font-family: var(--font-Garamond);
+        font-weight: 450;
+        font-size: 22px;
+      }
+    }
+    .img {
+      width: 400px;
+      justify-self: center;
+      align-self: center;
+    }
   }
 }
 
