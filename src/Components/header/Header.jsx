@@ -25,7 +25,6 @@ export const Header = () => {
           <button className={style.header_burger} onClick={isActiveHandler}>
             {!isActive ? (
               <>
-                {" "}
                 <span className={style.burger_item}></span>
                 <span className={style.burger_item}></span>
                 <span className={style.burger_item}></span>
@@ -37,7 +36,7 @@ export const Header = () => {
             )}
           </button>
 
-          <ul className={isActive ? style.active : style.notactive}>
+          <ul className={isActive ? style.active : style.notactive} >
             <li className={style.header_item}>
               <Link to={routes.home}>О нас</Link>
             </li>

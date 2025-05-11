@@ -50,6 +50,10 @@
   .header {
     padding-top: 0;
     margin: 0;
+    ul {
+      height: 100vh;
+      gap: 60px;
+    }
   }
   .header_burger {
     position: absolute;
@@ -66,10 +70,9 @@
       height: 3px;
       background-color: white;
     }
-    .burger_cross{
+    .burger_cross {
       width: 26px;
       height: 26px;
-
     }
   }
   .header_burger:hover {
@@ -79,6 +82,7 @@
   .header_nav {
     justify-content: center;
     width: 100%;
+    
     ul {
       display: none;
     }
@@ -87,18 +91,22 @@
       height: 65px;
       width: 100%;
       background-color: black;
+      
     }
     .active {
       position: absolute;
       top: 0;
       right: 0;
-      // margin-top: 300px;
       display: flex;
       flex-direction: column;
       padding: 50px;
+      padding-top: 100px;
       background-color: black;
       width: 100%;
       z-index: 999;
     }
+  }
+  .header_item {
+    font-size: 26px;
   }
 }
