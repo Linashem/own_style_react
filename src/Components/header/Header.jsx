@@ -23,9 +23,18 @@ export const Header = () => {
           </Link>
 
           <button className={style.header_burger} onClick={isActiveHandler}>
-            <span className={style.burger_item}></span>
-            <span className={style.burger_item}></span>
-            <span className={style.burger_item}></span>
+            {!isActive ? (
+              <>
+                {" "}
+                <span className={style.burger_item}></span>
+                <span className={style.burger_item}></span>
+                <span className={style.burger_item}></span>
+              </>
+            ) : (
+              <>
+                <img className={style.burger_cross} src='/cross.svg' alt='свой стиль' width={40} height={70} />
+              </>
+            )}
           </button>
 
           <ul className={isActive ? style.active : style.notactive}>
