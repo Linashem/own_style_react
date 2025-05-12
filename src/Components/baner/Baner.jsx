@@ -11,6 +11,7 @@ export const Baner = () => {
       setHeight(screenHeight);
     }
   }, []);
+
   return (
     <div className={style.baner} style={{ height: height }}>
       <div className={style.baner2} style={{ height: height }}>
@@ -19,7 +20,7 @@ export const Baner = () => {
           <h2 className={style.baner_desc}>ШКОЛА ШИТЬЯ</h2>
         </div>
         <div className={style.baner_arrow}>
-          <a href='#about'>
+          <a className={style.arrow_link} href='#about'>
             <svg
               className={style.baner_arrow_svg}
               role='presentation'

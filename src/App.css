@@ -16,6 +16,7 @@
   box-sizing: border-box;
   font-family: var(--font-cormorant);
   /* font-family: var(--font-Garamond); */
+  scroll-behavior: smooth;
 }
 
 main {
