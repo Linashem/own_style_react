@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 import style from "./OneCourse.module.scss";
 import { oneCourseActions } from "../../store/oneCourseReducer";
 import { coursesPageData } from "../../helper/constants";
-import { useInView } from "react-intersection-observer";
 
 export const OneCourse = () => {
   const courseData = useSelector((state) => state.course);
@@ -19,7 +18,6 @@ export const OneCourse = () => {
       )
     );
   }, []);
-  const { ref, inView } = useInView({ threshold: 0.1 });
 
   return (
     <div className={style.one_course_block}>
@@ -29,14 +27,7 @@ export const OneCourse = () => {
           src={courseData.imgSrc}
           alt={courseData.text}
         />
-        <div
-          className={style.text}
-          ref={ref}
-          style={{
-            opacity: inView ? 1 : 0,
-            transition: "opacity 0.7s",
-          }}
-        >
+        <div className={style.text}>
           <div className={style.top}>
             <h2 className={style.title}>{courseData.text}</h2>
             <p className={style.desc}>{courseData.desc}</p>
@@ -50,24 +41,8 @@ export const OneCourse = () => {
           </div>
         </div>
       </div>
-      <h2
-        className={style.ask_title}
-        ref={ref}
-        style={{
-          opacity: inView ? 1 : 0,
-          transition: "opacity 2s",
-        }}
-      >
-        Что нас ждет на курсе
-      </h2>
-      <div
-        className={style.one_course_bottom}
-        ref={ref}
-        style={{
-          opacity: inView ? 1 : 0,
-          transition: "opacity 2s",
-        }}
-      >
+      <h2 className={style.ask_title}>Что нас ждет на курсе</h2>
+      <div className={style.one_course_bottom}>
         {courseData.componentsTitle1 && (
           <div className={style.div_block1}>
             <ul
