@@ -15,11 +15,7 @@ export const Card = ({ text, imgSrc, price, lastCardStyle, id }) => {
   const cardStyle =
     lastCardStyle > 0
       ? {
-          background: `linear-gradient(
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.8) 40%,
-      rgba(0, 0, 0, 1) 100%
-    )`,
+          background: "black",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
