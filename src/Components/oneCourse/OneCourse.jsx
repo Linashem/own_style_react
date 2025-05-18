@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import style from "./OneCourse.module.scss";
 import { oneCourseActions } from "../../store/oneCourseReducer";
 import { coursesPageData } from "../../helper/constants";
+import { BtnWrite } from "../btnWrite/BtnWrite";
 
 export const OneCourse = () => {
   const courseData = useSelector((state) => state.course);
@@ -39,6 +40,7 @@ export const OneCourse = () => {
             </div>
             <p className={style.price}>{courseData.price}</p>
           </div>
+        <BtnWrite/>
         </div>
       </div>
       <h2 className={style.ask_title}>Что нас ждет на курсе</h2>
