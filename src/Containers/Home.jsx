@@ -3,6 +3,7 @@ import { Header } from "../Components/header/Header";
 import { Baner } from "../Components/baner/Baner";
 import { AboutUs } from "../Components/aboutUs/AboutUs";
 import { Courses } from "../Components/courses/Courses";
+import { Answers } from "../Components/answers/Answers";
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
       <main>
         <AboutUs />
         <Courses />
+        <Answers/>
       </main>
     </div>
   );
