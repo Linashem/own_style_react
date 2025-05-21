@@ -24,7 +24,7 @@ export const OneCourse = () => {
   return (
     <>
       <div className={style.one_course_block}>
-    <BreadСrumbs/>
+        <BreadСrumbs course_name={courseData.text} />
         <div className={style.one_course_top}>
           <img
             className={style.img}

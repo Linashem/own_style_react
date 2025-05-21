@@ -4,7 +4,7 @@ import { coursesPageData } from "../../helper/constants";
 import { CardCoursesPage } from "../cardCoursesPage/CardCoursesPage";
 import { useDispatch } from "react-redux";
 import { oneCourseActions } from "../../store/oneCourseReducer";
-
+import { BreadСrumbs } from "../breadСrumbs/BreadСrumbs";
 
 export const CorursesList = () => {
   const dispatch = useDispatch();
@@ -15,14 +15,14 @@ export const CorursesList = () => {
 
   return (
     <div className={style.courses_items_block}>
-      <h2>Курсы</h2>
+      <div className={style.courses_bread}>
+        <BreadСrumbs />
+      </div>
+      <h2 className={style.courses_title}>Курсы</h2>
       <div className={style.cards}>
         {coursesPageData.map((el) => (
           <div key={el.id} className={style.card_box}>
-            <div
-              className={style.img_link}
-              onClick={() => goToGood(el)}
-            >
+            <div className={style.img_link} onClick={() => goToGood(el)}>
               <CardCoursesPage
                 text={el.text}
                 imgSrc={el.imgSrc}

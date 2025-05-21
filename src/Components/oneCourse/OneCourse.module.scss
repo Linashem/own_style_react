@@ -1,7 +1,7 @@
 .one_course_block {
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 50px;
+  // margin-top: 50px;
   .one_course_top {
     margin-bottom: 80px;
     display: flex;
@@ -187,9 +187,6 @@
 }
 
 @media (max-width: 620px) {
-  .one_course_block {
-    margin-top: 30px;
-  }
   .one_course_top {
     flex-direction: column;
     .img {
