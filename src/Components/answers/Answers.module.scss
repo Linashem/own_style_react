@@ -90,7 +90,7 @@ details a {
     width: 600px;
   }
 }
-@media (max-width:650px) {
+@media (max-width: 650px) {
   .answers_block {
     justify-content: center;
   }
@@ -98,6 +98,17 @@ details a {
     display: none;
   }
   .answers_text {
-    width: 80%;
+    width: 400px;
   }
 }
+@media (max-width: 450px) {
+  .answers_text {
+    width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  .answers_text {
+    width: 250px;
+  }
+}
+
