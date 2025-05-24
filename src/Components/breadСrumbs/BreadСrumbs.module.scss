@@ -10,7 +10,6 @@
 }
 .bread_link{
   position: relative;
-  // text-decoration: underline;
   color: black;
 }
 .bread_link::after{
@@ -21,6 +20,9 @@ height: 1px;
 background-color:  #4C514A;
 }
 @media (max-width: 500px) {
+  .bread_block {
+    margin: 10px 0;
+  }
   .bread_desk {
     color: black;
     font-size: 13px;

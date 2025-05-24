@@ -43,7 +43,9 @@ export const OneCourse = () => {
               </div>
               <p className={style.price}>{courseData.price}</p>
             </div>
-            <BtnWrite />
+            <div className={style.one_course_btn}>
+              <BtnWrite />
+            </div>
           </div>
         </div>
         <h2 className={style.ask_title}>Что нас ждет на курсе</h2>

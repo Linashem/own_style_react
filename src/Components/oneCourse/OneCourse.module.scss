@@ -1,7 +1,6 @@
 .one_course_block {
   max-width: 1200px;
   margin: 0 auto;
-  // margin-top: 50px;
   .one_course_top {
     margin-bottom: 80px;
     display: flex;
@@ -175,6 +174,9 @@
     }
   }
 }
+.one_course_btn {
+  width: 160px;
+}
 @media (max-width: 700px) {
   .one_course_block {
     .one_course_bottom {
@@ -195,6 +197,10 @@
     }
     .text {
       width: 100%;
+    }
+    .one_course_btn {
+      width: 300px;
+      justify-self: center;
     }
   }
 }

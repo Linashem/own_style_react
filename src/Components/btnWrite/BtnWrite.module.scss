@@ -1,6 +1,6 @@
 // @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
-$red: white;
-$white: black;
+$white: white;
+$black: black;
 .btn {
     display: flex;
     align-items: center;
@@ -13,12 +13,11 @@ $white: black;
 
   color: black;
   cursor: pointer;
-  // display: block;
   font-size: 16px;
   font-weight: 400;
   line-height: 45px;
   margin: 0 0 2em;
-  max-width: 160px;
+  max-width: 300px;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -26,7 +25,7 @@ $white: black;
 }
 
 .btn {
-    background: darken($red, 1.5%);
+    background: darken($white, 1.5%);
     font-weight: 100;
     
     svg {
@@ -47,7 +46,7 @@ $white: black;
   }
   
   .btn:hover {
-    background: rgba($red, 0);
+    background: rgba($white, 0);
     font-weight: 900;
     letter-spacing: 1px;
     
