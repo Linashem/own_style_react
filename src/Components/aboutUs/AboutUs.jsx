@@ -20,7 +20,7 @@ export const AboutUs = () => {
           ref={ref}
           style={{
             opacity: inView ? 1 : 0,
-            transition: "opacity 2s",
+            transition: "opacity 1.5s",
           }}
           className={style.desc}
         >
@@ -30,7 +30,7 @@ export const AboutUs = () => {
           ref={ref}
           style={{
             opacity: inView ? 1 : 0,
-            transition: "opacity 3s",
+            transition: "opacity 2s",
           }}
         >
           Здесь будет написан любой текст приветствия Lorem ipsum, dolor sit
