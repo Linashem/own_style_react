@@ -31,21 +31,26 @@
 }
 @media (max-width: 800px) {
   .students_courusel {
-    width: 700px;
+    width: 600px;
   }
 }
 @media (max-width: 700px) {
   .students_courusel {
-    width: 520px;
+    width: 570px;
   }
 }
 @media (max-width: 630px) {
   .students_courusel {
-    width: 500px;
+    width: 570px;
   }
 }
 @media (max-width: 570px) {
   .students_courusel {
-    width: 350px;
+    width: 450px;
+  }
+}
+@media (max-width: 450px) {
+  .students_courusel {
+    width: 300px;
   }
 }

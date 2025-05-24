@@ -1,4 +1,10 @@
 .stydent_card_block {
-  width: 200px;
-  height: 250px;
+  width: 250px;
+  height: 300px;
+}
+@media (max-width: 800px) {
+  .stydent_card_block {
+    width: 200px;
+    height: 250px;
+  }
 }

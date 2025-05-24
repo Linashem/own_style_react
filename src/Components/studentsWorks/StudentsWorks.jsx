@@ -14,18 +14,35 @@ export const StudentsWorks = () => {
       <h2 className={style.students_title}>Работы учениц</h2>
       <div className={style.students_courusel}>
         <Swiper
-          slidesPerView={1.2}
+          slidesPerView={1.5}
+          spaceBetween={20} 
           breakpoints={{
-            580: {
-              slidesPerView: 1.5,
-            },
-            600: {
+            // 300: {
+            //   slidesPerView: 1.8,
+            // },
+            450: {
               slidesPerView: 2,
+            },
+            580: {
+              slidesPerView: 2.5,
+            },
+            630: {
+              slidesPerView: 2.7,
               slidesPerGroup: 1,
               spaceBetween: 20,
             },
-            900: {
-              slidesPerView: 5,
+            800: {
+              slidesPerView: 3.2,
+              slidesPerGroup: 1,
+              spaceBetween: 20,
+            },
+            1000: {
+              slidesPerView: 4,
+              slidesPerGroup: 1,
+              spaceBetween: 20,
+            },
+            1200: {
+              slidesPerView: 4.5,
               slidesPerGroup: 1,
               spaceBetween: 10,
             },

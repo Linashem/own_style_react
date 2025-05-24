@@ -367,4 +367,9 @@ export const studentsWorksData = [
   { id: 3, imgSrc: "./work4.jpg" },
   { id: 4, imgSrc: "./work5.jpg" },
   { id: 5, imgSrc: "./work1.jpg" },
+  { id: 1, imgSrc: "./work2.jpg" },
+  { id: 2, imgSrc: "./work3.jpg" },
+  { id: 3, imgSrc: "./work4.jpg" },
+  { id: 4, imgSrc: "./work5.jpg" },
+  { id: 5, imgSrc: "./work1.jpg" },
 ];
