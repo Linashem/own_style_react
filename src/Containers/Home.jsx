@@ -4,6 +4,7 @@ import { Baner } from "../Components/baner/Baner";
 import { AboutUs } from "../Components/aboutUs/AboutUs";
 import { Courses } from "../Components/courses/Courses";
 import { Answers } from "../Components/answers/Answers";
+import { StudentsWorks } from "../Components/studentsWorks/StudentsWorks";
 
 export const Home = () => {
   return (
@@ -19,7 +20,8 @@ export const Home = () => {
       <main>
         <AboutUs />
         <Courses />
-        <Answers/>
+        <Answers />
+        <StudentsWorks />
       </main>
     </div>
   );

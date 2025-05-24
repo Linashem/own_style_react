@@ -74,7 +74,12 @@ a:hover {
   height: 100%;
   object-fit: cover;
 }
-
+@media (max-width: 2000px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    visibility: visible;
+  }
+}
 @media (max-width: 570px) {
   .swiper-button-next,
   .swiper-button-prev {

@@ -102,16 +102,14 @@ export const coursesPageData = [
       " Построение базовой конструкции брюк",
       "  Моделирование для широких брюк",
       " Раскрой, подготовка к примерке",
-      "Пошив брюк"
+      "Пошив брюк",
     ],
-
   },
   {
     id: 102,
     imgSrc: "/pic_card3.jpg",
     text: "Курс «Боди, леггинсы»",
     price: "8000 р",
-    
   },
   {
     id: 103,
@@ -187,22 +185,27 @@ export const gallery = [
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
-    data_src: "./work6.jpg",
+    data_src: "./work1.jpg",
   },
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
-    data_src: "./work7.jpg",
+    data_src: "./work2.jpg",
   },
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
-    data_src: "./work8.jpg",
+    data_src: "./work3.jpg",
   },
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
-    data_src: "./work9.jpg",
+    data_src: "./work4.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work5.jpg",
   },
   {
     data_lg_size: "1600-2400",
@@ -229,26 +232,30 @@ export const gallery = [
     className: "gallery__item",
     data_src: "./work5.jpg",
   },
-
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
-    data_src: "./work6.jpg",
+    data_src: "./work1.jpg",
   },
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
-    data_src: "./work7.jpg",
+    data_src: "./work2.jpg",
   },
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
-    data_src: "./work8.jpg",
+    data_src: "./work3.jpg",
   },
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
-    data_src: "./work9.jpg",
+    data_src: "./work4.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work5.jpg",
   },
   {
     data_lg_size: "1600-2400",
@@ -275,26 +282,30 @@ export const gallery = [
     className: "gallery__item",
     data_src: "./work5.jpg",
   },
-
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
-    data_src: "./work6.jpg",
+    data_src: "./work1.jpg",
   },
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
-    data_src: "./work7.jpg",
+    data_src: "./work2.jpg",
   },
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
-    data_src: "./work8.jpg",
+    data_src: "./work3.jpg",
   },
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
-    data_src: "./work9.jpg",
+    data_src: "./work4.jpg",
+  },
+  {
+    data_lg_size: "1600-2400",
+    className: "gallery__item",
+    data_src: "./work5.jpg",
   },
   {
     data_lg_size: "1600-2400",
@@ -321,27 +332,6 @@ export const gallery = [
     className: "gallery__item",
     data_src: "./work5.jpg",
   },
-
-  {
-    data_lg_size: "1600-2400",
-    className: "gallery__item",
-    data_src: "./work6.jpg",
-  },
-  {
-    data_lg_size: "1600-2400",
-    className: "gallery__item",
-    data_src: "./work7.jpg",
-  },
-  {
-    data_lg_size: "1600-2400",
-    className: "gallery__item",
-    data_src: "./work8.jpg",
-  },
-  {
-    data_lg_size: "1600-2400",
-    className: "gallery__item",
-    data_src: "./work9.jpg",
-  },
   {
     data_lg_size: "1600-2400",
     className: "gallery__item",
@@ -366,28 +356,15 @@ export const gallery = [
     data_lg_size: "1600-2400",
     className: "gallery__item",
     data_src: "./work5.jpg",
-  },
-
-  {
-    data_lg_size: "1600-2400",
-    className: "gallery__item",
-    data_src: "./work6.jpg",
-  },
-  {
-    data_lg_size: "1600-2400",
-    className: "gallery__item",
-    data_src: "./work7.jpg",
-  },
-  {
-    data_lg_size: "1600-2400",
-    className: "gallery__item",
-    data_src: "./work8.jpg",
-  },
-  {
-    data_lg_size: "1600-2400",
-    className: "gallery__item",
-    data_src: "./work9.jpg",
   },
 
   // data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@therawhunter' >Massimiliano Morosinotto </a></h4><p> Location - <a href='https://unsplash.com/s/photos/tre-cime-di-lavaredo%2C-italia'>Tre Cime di Lavaredo, Italia</a>This is the Way</p>"}
+];
+
+export const studentsWorksData = [
+  { id: 1, imgSrc: "./work2.jpg" },
+  { id: 2, imgSrc: "./work3.jpg" },
+  { id: 3, imgSrc: "./work4.jpg" },
+  { id: 4, imgSrc: "./work5.jpg" },
+  { id: 5, imgSrc: "./work1.jpg" },
 ];
