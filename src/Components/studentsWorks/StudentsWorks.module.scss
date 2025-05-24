@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 1200px;
-  margin-bottom: 300px;
+  margin-bottom: 90px;
 }
 
 .students_title {
@@ -50,6 +50,7 @@
   }
 }
 @media (max-width: 450px) {
+  
   .students_courusel {
     width: 320px;
   }

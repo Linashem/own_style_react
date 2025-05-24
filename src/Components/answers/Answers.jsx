@@ -4,7 +4,7 @@ import style from "./Answers.module.scss";
 export const Answers = () => {
   return (
     <div className={style.answers_block}>
-      {/* <div className={style.answers}> */}
+      
       <div className={style.answers_img}></div>
       <div className={style.answers_text}>
         <h2 className={style.answers_title}>Часто задаваемые вопросы</h2>
@@ -20,7 +20,7 @@ export const Answers = () => {
         </details>
 
         <details name='exclusive'>
-          <summary>Справлюсь ли я если я новичок?</summary>
+          <summary>Справлюсь ли я, если я новичок?</summary>
           <article>
             <p>
               For extra effect, we can also style the currently open{" "}
