@@ -108,14 +108,17 @@
 }
 @media (max-width: 410px) {
   .write_block {
-    width: 300px;
+    width: 350px;
   }
   .write_img {
     height: 300px;
   }
+  .write_btn {
+    width: 150px;
+  }
 }
 @media (max-width: 370px) {
   .answers_text {
-    width: 270px;
+    width: 300px;
   }
 }
