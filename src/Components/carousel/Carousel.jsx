@@ -16,8 +16,6 @@ export const Carousel = () => {
         breakpoints={{
           580: {
             slidesPerView: 1.5,
-            // slidesPerGroup: 1,
-            // spaceBetween: 20,
           },
           600: {
             slidesPerView: 2,

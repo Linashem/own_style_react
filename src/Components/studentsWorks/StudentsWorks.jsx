@@ -15,11 +15,8 @@ export const StudentsWorks = () => {
       <div className={style.students_courusel}>
         <Swiper
           slidesPerView={1.5}
-          spaceBetween={20} 
+          spaceBetween={20}
           breakpoints={{
-            // 300: {
-            //   slidesPerView: 1.8,
-            // },
             450: {
               slidesPerView: 2,
             },
@@ -33,21 +30,15 @@ export const StudentsWorks = () => {
             },
             800: {
               slidesPerView: 3.2,
-              slidesPerGroup: 1,
-              spaceBetween: 20,
             },
             1000: {
               slidesPerView: 4,
-              slidesPerGroup: 1,
-              spaceBetween: 20,
             },
             1200: {
               slidesPerView: 4.5,
-              slidesPerGroup: 1,
               spaceBetween: 10,
             },
           }}
-          spaceBetween={15}
           navigation={true}
           modules={[Navigation]}
           className='mySwiper'
@@ -55,7 +46,7 @@ export const StudentsWorks = () => {
           {studentsWorksData &&
             studentsWorksData.map((el) => (
               <SwiperSlide key={el.id}>
-                <StudentCard imgSrc={el.imgSrc} />
+                <StudentCard imgSrc={el.imgSrc} text={el.text} />
               </SwiperSlide>
             ))}
         </Swiper>
