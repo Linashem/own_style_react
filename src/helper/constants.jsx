@@ -366,8 +366,8 @@ export const studentsWorksData = [
   { id: 2, imgSrc: "./work3.jpg" },
   { id: 3, imgSrc: "./work4.jpg" },
   { id: 4, imgSrc: "./work5.jpg" },
-  { id: 5, imgSrc: "./work1.jpg" },
-  { id: 6, imgSrc: "./work2.jpg" },
+  // { id: 5, imgSrc: "./work1.jpg" },
+  // { id: 6, imgSrc: "./work2.jpg" },
   {
     id:7,
     text: "ПОСМОТРЕТЬ ВСЕ РАБОТЫ"

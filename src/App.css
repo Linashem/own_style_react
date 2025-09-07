@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif+JP:wght@400;500&display=swap");
 /* @import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Jost:ital,wght@0,400;0,500;0,800;1,500&family=Montserrat:wght@300;400;600&family=Pacifico&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 :root {
   --primary-color: #ffffff;
   --secondary-color: #07305d;
   --background-form-color: #0f1d45;
   --font-cormorant: "Cormorant Garamond", sans-serif;
+  --font-p: "Merriweather", serif;
+  --font-heading: "Philosopher", sans-serif;
+  /* --font-cormorant: "Raleway", sans-serif;/ */
+
   --secondary-font-montserrat: "Montserrat", sans-serif;
   --font-Garamond: "EB Garamond", serif;
 }
@@ -34,6 +41,43 @@ a {
 a:hover {
   opacity: 0.6;
 }
+
+h2 {
+  font-family: var(--font-heading);
+  font-size: 42px;
+  letter-spacing: 1.5px;
+}
+
+
+p {
+  line-height: 1.5;
+  font-family: var(--font-p);
+  font-weight: 500;
+  font-size: 16px;
+}
+@media (max-width: 850px) {
+  h2{
+  font-size: 30px;
+
+  }
+  p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 700px) {
+  p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 500px) {
+  h2{
+    font-size: 25px;
+  }
+  p {
+    font-size: 10px;
+  }
+}
+
 
 .header_baner {
   position: relative;

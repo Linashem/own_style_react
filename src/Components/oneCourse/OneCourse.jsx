@@ -60,7 +60,7 @@ export const OneCourse = () => {
                 </div>
                 {courseData.componentsDesc1 &&
                   courseData.componentsDesc1.map((el, i) => (
-                    <li key={i}>{el}</li>
+                    <li key={i}><p>{el}</p></li>
                   ))}
               </ul>
             </div>
@@ -75,7 +75,7 @@ export const OneCourse = () => {
                 </div>
                 {courseData.componentsDesc2 &&
                   courseData.componentsDesc2.map((el, i) => (
-                    <li key={i}>{el}</li>
+                    <li key={i}> <p>{el}</p></li>
                   ))}
               </ul>{" "}
             </div>
@@ -90,7 +90,7 @@ export const OneCourse = () => {
                 </div>
                 {courseData.componentsDesc3 &&
                   courseData.componentsDesc3.map((el, i) => (
-                    <li key={i}>{el}</li>
+                    <li key={i}><p>{el}</p></li>
                   ))}
               </ul>
             </div>
@@ -105,7 +105,7 @@ export const OneCourse = () => {
                 </div>
                 {courseData.componentsDesc4 &&
                   courseData.componentsDesc4.map((el, i) => (
-                    <li key={i}>{el}</li>
+                    <li key={i}><p>{el}</p></li>
                   ))}
               </ul>
             </div>
