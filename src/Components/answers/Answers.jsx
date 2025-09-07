@@ -4,17 +4,20 @@ import style from "./Answers.module.scss";
 export const Answers = () => {
   return (
     <div className={style.answers_block}>
-      
       <div className={style.answers_img}></div>
       <div className={style.answers_text}>
         <h2 className={style.answers_title}>Часто задаваемые вопросы</h2>
         <details name='exclusive' open>
-          <summary>Сложно ли шить?</summary>
+          <summary className={style.question}> Сложно ли шить?</summary>
+          {/* <summary> <p>Сложно ли шить?</p></summary> */}
+
           <article>
             <p>
-              Конечно сложно As of 2024, it’s possible (in some browsers) to
-              coordinate multiple <code>details</code> elements in such a way
-              that one closes when another one opens.
+              Конечно сложно, а вы как думали
+              <br /> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptas nemo suscipit mollitia quasi laborum quaerat sit unde
+              alias magnam blanditiis. Eveniet perferendis deleniti quidem nam
+              quaerat necessitatibus consequuntur, provident maxime.
             </p>
           </article>
         </details>
@@ -22,10 +25,7 @@ export const Answers = () => {
         <details name='exclusive'>
           <summary>Справлюсь ли я, если я новичок?</summary>
           <article>
-            <p>
-              For extra effect, we can also style the currently open{" "}
-              <code>details</code> element(s) differently from the closed ones.
-            </p>
+            <p>нет конечно</p>
           </article>
         </details>
 

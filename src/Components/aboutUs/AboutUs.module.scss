@@ -8,7 +8,6 @@
 .about_img {
   height: 800px;
   width: 100%;
-  // background: gray;
   background-image: url("./about_us.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,22 +22,17 @@
   padding: 40px;
   width: 100%;
   font-family: var(--font-p);
-
 }
-.title{
+.title {
   margin-bottom: 0px;
 }
-// p {
-//   line-height: 1.5;
-//   font-family: var(--font-p);
-//   font-weight: 500;
-//   font-size: 16px;
-// }
-// @media (max-width: 850px) {
-//   p {
-//     font-size: 14px;
-//   }
-// }
+.btn_show_more {
+  display: none;
+}
+.btn_show_more_not_visible {
+  display: none;
+}
+
 @media (max-width: 700px) {
   .about_img {
     height: 500px;
@@ -47,6 +41,30 @@
   .about_block {
     flex-direction: column;
     margin: 20px 0;
+  }
+  .visible_text {
+    overflow: hidden;
+    position: relative;
+  }
+  .visible_text:after {
+    content: "";
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 1.2em;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 100%);
+    pointer-events: none;
+  }
+  .btn_show_more {
+    display: block;
+    outline-style: none;
+    border: none;
+    text-decoration: underline;
+  }
+  .active {
+    display: none;
   }
 }
 @media (max-width: 600px) {

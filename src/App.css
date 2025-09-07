@@ -50,7 +50,7 @@ h2 {
 }
 
 
-p {
+p, summary {
   line-height: 1.5;
   font-family: var(--font-p);
   font-weight: 500;
@@ -61,7 +61,7 @@ p {
   font-size: 30px;
 
   }
-  p {
+  p, summary {
     font-size: 14px;
   }
 }

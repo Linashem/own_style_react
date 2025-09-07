@@ -18,9 +18,9 @@ export const Home = () => {
         <div className='baner_block'>
           <Baner />
         </div>
-      </div> 
+      </div>
       <main>
-         <AboutUs />
+        <AboutUs />
         <Courses />
         <Answers />
         <StudentsWorks />
