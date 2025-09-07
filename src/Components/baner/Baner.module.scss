@@ -32,6 +32,10 @@
   font-size: 50px;
 }
 
+.baner_desc {
+  font-family: var(--font-cormorant);
+}
+
 .baner::after {
   content: "";
   position: absolute;

@@ -32,11 +32,8 @@ export const Card = ({ text, imgSrc, price, lastCardStyle, id }) => {
       className={style.card_link}
     >
       <div className={style.card} style={cardStyle}>
-        {/* <button className={style.card_button}>Подробнее</button> */}
         <div className={style.text} style={lastTextStyle}>
-          <h4 className={style.card_title}>
-            <p className={style.link}>{text}</p>
-          </h4>
+          <h4 className={style.card_title}>{text}</h4>
           <p>{price}</p>
         </div>
       </div>

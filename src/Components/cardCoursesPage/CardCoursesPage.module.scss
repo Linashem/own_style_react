@@ -49,6 +49,9 @@
 
 .card_title {
   text-align: left;
+  font-family: var(--font-p);
+  font-weight: 300;
+  font-size: 18px;
 }
 .link:hover {
   opacity: 1;
@@ -69,7 +72,6 @@
     }
   }
   .card::after {
-    
     background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 0%,
@@ -89,6 +91,9 @@
     gap: 8px;
     font-size: 18px;
   }
+  .card_title {
+    font-size: 16px;
+  }
 }
 @media (max-width: 620px) {
   .card {
@@ -105,6 +110,9 @@
   }
   .text {
     font-size: 16px;
+  }
+  .card_title {
+    font-size: 12px;
   }
 }
 @media (max-width: 450px) {

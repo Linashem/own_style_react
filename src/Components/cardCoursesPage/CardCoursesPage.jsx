@@ -8,7 +8,7 @@ export const CardCoursesPage = ({ text, imgSrc, price, lastCardStyle, id }) => {
       <div className={style.card} style={{ backgroundImage: `url(${imgSrc})` }}>
         <div className={style.text}>
           <h4 className={style.card_title}>
-            <a className={style.link}>{text}</a>
+            {text}
           </h4>
           <p>{price}</p>
         </div>
