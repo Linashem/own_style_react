@@ -171,17 +171,28 @@
   width: 160px;
 }
 @media (max-width: 700px) {
-  .one_course_block {
+ 
     .one_course_bottom {
       .div_block2,
       .div_block4 {
         justify-content: start;
       }
     }
-  }
+  
 }
 
 @media (max-width: 620px) {
+  .one_course_block {
+    .one_course_top {
+      margin-bottom: 0px;
+    }}
+  .one_course_block .text .desc {
+    margin-bottom: 30px;
+  }
+  .one_course_block .text .bottom {
+    
+    padding-bottom: 30px;
+}
   .one_course_block {
     .one_course_bottom {
       .one_course_desc_title {
