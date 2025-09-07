@@ -5,7 +5,7 @@ import { GalleryList } from "../galleryList/GalleryList";
 export const Gallery = () => {
   return (
     <div className={style.gallery_block}>
-      <h1 className={style.title}>Gallery</h1>
+      <h2 className={style.title}>Работы учениц</h2>
       <GalleryList />
     </div>
   );
