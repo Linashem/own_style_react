@@ -45,6 +45,7 @@
   .visible_text {
     overflow: hidden;
     position: relative;
+    height: 120px;
   }
   .visible_text:after {
     content: "";
@@ -59,8 +60,10 @@
   }
   .btn_show_more {
     display: block;
+    justify-self: end;
     outline-style: none;
     border: none;
+    background-color: inherit;
     text-decoration: underline;
   }
   .active {
