@@ -14,7 +14,7 @@ export const StudentsWorks = () => {
       <h2 className={style.students_title}>Работы учениц</h2>
       <div className={style.students_courusel}>
         <Swiper
-          slidesPerView={1.5}
+          slidesPerView={1.4}
           spaceBetween={20}
           breakpoints={{
             450: {

@@ -41,7 +41,7 @@
 }
 @media (max-width: 630px) {
   .students_courusel {
-    width: 570px;
+    width: 530px;
   }
 }
 @media (max-width: 570px) {
@@ -49,9 +49,21 @@
     width: 450px;
   }
 }
+@media (max-width: 500px) {
+  
+  .students_courusel {
+    width: 410px;
+  }
+}
 @media (max-width: 450px) {
   
   .students_courusel {
     width: 320px;
+  }
+}
+@media (max-width: 350px) {
+  
+  .students_courusel {
+    width: 280px;
   }
 }

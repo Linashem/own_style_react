@@ -57,6 +57,7 @@
 
 
 @media (max-width: 1050px) {
+  
   .write_img {
     height: 500px;
   }
@@ -109,9 +110,15 @@
     width: 160px;
   }
 }
+@media (max-width: 550px) {
+  .write_block {
+    width: 360px;
+  }
+
+}
 @media (max-width: 500px) {
   .write_block {
-    width: 400px;
+    width: 380px;
   }
   .write_img {
     height: 350px;
@@ -135,7 +142,14 @@
   }
 }
 @media (max-width: 370px) {
-  .answers_text {
+  
+  .write_block {
+    width: 340px;
+  }
+}
+@media (max-width: 370px) {
+  
+  .write_block {
     width: 300px;
   }
 }

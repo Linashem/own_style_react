@@ -13,7 +13,7 @@
 }
 @media (max-width: 1200px) {
   .cards {
-    width: 1000px;
+    width: 980px;
   }
 }
 @media (max-width: 1000px) {
@@ -23,12 +23,12 @@
 }
 @media (max-width: 950px) {
   .cards {
-    width: 800px;
+    width: 780px;
   }
 }
 @media (max-width: 800px) {
   .cards {
-    width: 700px;
+    width: 660px;
   }
 }
 @media (max-width: 700px) {
@@ -44,6 +44,15 @@
 @media (max-width: 570px) {
   .cards {
     width: 350px;
-    // margin: 0 50px;
+  }
+}
+@media (max-width: 400px) {
+  .cards {
+    width: 300px;
+  }
+}
+@media (max-width: 340px) {
+  .cards {
+    width: 280px;
   }
 }
