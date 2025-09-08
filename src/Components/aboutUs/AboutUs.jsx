@@ -45,7 +45,6 @@ export const AboutUs = () => {
             вам идеально. Научу вас подчеркивать достоинства и нивелировать
             особенности вашей фигуры.
           </p>
-          <br />
           <button
             className={
               !isShow ? style.btn_show_more : style.btn_show_more_not_visible
@@ -54,6 +53,7 @@ export const AboutUs = () => {
           >
             Показать еще
           </button>
+            <br />
 
           <div className={!isShow && style.active}>
             <p>

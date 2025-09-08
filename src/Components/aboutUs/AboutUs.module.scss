@@ -32,20 +32,19 @@
 .btn_show_more_not_visible {
   display: none;
 }
-
-@media (max-width: 700px) {
-  .about_img {
-    height: 500px;
-  }
-
+@media (max-width: 1000px) {
   .about_block {
     flex-direction: column;
     margin: 20px 0;
   }
+  .about_img {
+    height: 600px;
+    width: 50%;
+  }
   .visible_text {
     overflow: hidden;
     position: relative;
-    height: 120px;
+    height: 100px;
   }
   .visible_text:after {
     content: "";
@@ -68,6 +67,12 @@
   }
   .active {
     display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .about_img {
+    height: 500px;
   }
 }
 @media (max-width: 600px) {
