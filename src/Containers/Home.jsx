@@ -31,7 +31,7 @@ export const Home = () => {
           height='350'
           frameborder='0'
         ></iframe> */}
-        {/* <Footer/> */}
+        <Footer/>
       </main>
     </div>
   );

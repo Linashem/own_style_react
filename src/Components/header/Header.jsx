@@ -31,12 +31,18 @@ export const Header = () => {
               </>
             ) : (
               <>
-                <img className={style.burger_cross} src='/cross.svg' alt='свой стиль' width={40} height={70} />
+                <img
+                  className={style.burger_cross}
+                  src='/cross.svg'
+                  alt='свой стиль'
+                  width={40}
+                  height={70}
+                />
               </>
             )}
           </button>
 
-          <ul className={isActive ? style.active : style.notactive} >
+          <ul className={isActive ? style.active : style.notactive}>
             <li className={style.header_item}>
               <Link to={routes.home}>О нас</Link>
             </li>
@@ -45,6 +51,15 @@ export const Header = () => {
             </li>
             <li className={style.header_item}>
               <Link to={routes.gallery}> Работы учениц</Link>
+            </li>
+            <li className={style.header_item}>
+              <a className={style.header_connection} href='tel:+7 (903) 054-33-97'>
+                {" "}
+                <div className={style.connection_icon}>
+                  <img src='/phone.svg' alt='' />
+                </div>{" "}
+                +7 (903) 054-33-97
+              </a>
             </li>
           </ul>
         </div>

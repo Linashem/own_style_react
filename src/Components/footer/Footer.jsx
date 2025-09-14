@@ -35,11 +35,13 @@ export const Footer = () => {
           </ul>
         </div>
         <div className={style.footer_column}>
-          <a className={style.footer_connection} href='tel:89101272708'>
+          <p className={style.adres}>Адрес: г. Н. Новгород, ул Обухова 11/13</p>
+
+          <a className={style.footer_connection} href='tel:+7 (903) 054-33-97'>
             <div className={style.connection_icon}>
               <img src='/phone.svg' alt='' />
             </div>
-            +7 910 127 27 08
+            +7 (903) 054-33-97
           </a>
           <a
             className={style.footer_connection}
@@ -50,15 +52,25 @@ export const Footer = () => {
             </div>
             Написать
           </a>
+          <a
+            href='https://vk.com/schoolallatrefilova?from=groups'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            {" "}
+            <div className={style.connection_vk}>
+              <img className={style.vk_img} src='/vk.svg' alt='' />
+            </div>{" "}
+          </a>
         </div>
-        <div className={style.footer_map}>
-          <iframe
-            src='https://yandex.ru/map-widget/v1/?um=constructor%3A0325273e898f6e231c6438935d98054667e158f8508f1d1a78cbc188d94c0e49&amp;source=constructor'
-            width='500'
-            height='280'
-            frameborder='0'
-          ></iframe>
-        </div>
+      </div>
+      <div className={style.footer_map}>
+        <iframe
+          src='https://yandex.ru/map-widget/v1/?um=constructor%3A0325273e898f6e231c6438935d98054667e158f8508f1d1a78cbc188d94c0e49&amp;source=constructor'
+          width='100%'
+          height='280'
+          frameborder='0'
+        ></iframe>
       </div>
     </footer>
   );
