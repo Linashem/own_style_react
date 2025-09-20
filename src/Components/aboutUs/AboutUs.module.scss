@@ -23,6 +23,13 @@
   width: 100%;
   font-family: var(--font-p);
 }
+.desc {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+}
 .title {
   margin-bottom: 0px;
 }
@@ -73,6 +80,9 @@
 @media (max-width: 700px) {
   .about_img {
     height: 500px;
+  }
+  .desc {
+    font-size: 18px;
   }
 }
 @media (max-width: 600px) {

@@ -28,7 +28,7 @@ export const AboutUs = () => {
           }}
           className={style.desc}
         >
-          меня зовут Алла
+           я Алла Трефилова руководитель школы шитья «Свой Стиль»
         </p>
         <div
           ref={ref}
